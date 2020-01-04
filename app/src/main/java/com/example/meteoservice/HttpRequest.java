@@ -23,7 +23,6 @@ public class HttpRequest extends AsyncTask<String, Void, String> {
         //Url get from params array
         String url = params[0];
         String result;
-        byte[] resultBytes;
         String inputLine;
 
         try {
